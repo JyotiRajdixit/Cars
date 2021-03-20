@@ -77,7 +77,10 @@ class Landing extends React.Component {
                             </div>
                         </div>
                     </div> <div className="SelectedCars" style={{ display: this.state.count < 2 ? "none" : "block" }}>
-                        sjjsnncvbccbcbb
+                        <li>Car1</li>
+                        <li>Car2</li>
+                        <li>Car3</li>
+                        <li>Car4</li>
                     </div>
 
                     <div className="row align-items-center" style={{ margin: "5px", justifyContent: "center", textAlign: "left" }}>
@@ -123,7 +126,11 @@ class Landing extends React.Component {
                             )}
                     </div>
                    
-                    <button id="button-addon1" className="btn btn-link text-primary Comparison" disabled={this.state.count < 2 && true} style={{ border: this.state.count < 2 ? "none" : "1px solid blue" }}>
+                    <button 
+                        id="button-addon1" 
+                        className="btn btn-link text-primary Comparison" 
+                        disabled={this.state.count < 2 && true} 
+                        style={{ border: this.state.count < 2 ? "none" : "1px solid blue" }}>
                         <img src="/images/compare.svg" alt="Compare" />
                     </button>
                 </div>
