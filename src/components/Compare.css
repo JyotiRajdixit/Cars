@@ -1,0 +1,79 @@
+.table{
+    width : 100%;
+}
+
+table tbody tr td.Active table{
+    width:30vw;
+}
+
+table tbody tr td.Active table.table-props{
+    color:rgb(143, 141, 141);
+    font-weight: 600;
+}
+
+table tbody tr td.Active table.table-shade{
+    background-color:rgba(183, 185, 187, 0.178);
+}
+
+.jumbotron{
+    background-color: white;
+    margin: 5px;
+    border-radius: 10px;
+    justify-content: left;
+    text-align: left;
+}
+
+button.Comparison {
+    position: fixed;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    background: white;
+    bottom: 2vw;
+    right: 3vw;
+}
+
+div.SelectedCars{
+    display: none;
+    position: fixed;
+    background: white;
+    right: 3vw;
+}
+
+div.card{
+    margin:1.2%;
+    box-shadow: 0 4px 8px 0 rgba(230, 225, 225, 0.2), 0 6px 20px 0 rgba(124, 121, 121, 0.19);
+}
+
+div.cardHover:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+img.card-img-top{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+
+div.card-body{
+    margin-left: 2%;
+}
+
+p.CarName{
+    color : rgb(61, 61, 61); 
+    font-weight: 700;
+    font-family:'Roboto', sans-serif;
+}
+
+p.CarDetails{
+    color :  rgb(167, 166, 166);
+    font-weight: 400;
+    font-family:'Roboto', sans-serif;
+}
+p.CarName, p.CarDetails{
+    margin:1.5%;
+}
+
+input.Checkbox{
+    float:right;
+    margin-top: 2%;
+    padding: 0%;
+}
