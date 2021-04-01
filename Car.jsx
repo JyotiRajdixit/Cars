@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header.jsx';
 import Cars from './Cars.jsx';
-import './App.css';
+//import './App.css';
 
 
 class Car extends React.Component {
