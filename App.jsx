@@ -1,13 +1,22 @@
 import React from 'react';
-//import Car from './Car';
-//import CarDetails from './CarDetails';
-//import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-//import './App.css';
-//import CompareCars from './CompareCars';
+import Car from './Car.jsx';
+import CarDetails from './CarDetails.jsx';
+import CompareCars from './CompareCars.jsx';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import './App.css';
 
 function App() {
   return (
-    <h1>app</h1>
+    <Router>
+      <div className="App">
+        <Switch>
+          <Route path="/" exact component={Car} />
+          <Route path="/car" exact component={Car} />
+          <Route path="/car/:id" component={CarDetails} />
+          <Route path="/comparecars" component={CompareCars} />
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
