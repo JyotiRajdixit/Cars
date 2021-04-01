@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 //import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-<h1>sdwdwd</h1>
+<h1>sdwdwd</h1>,
   document.getElementById('react-app')
 );
 
