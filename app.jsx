@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+//import './index.css';
 //import App from './App';
 //import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-   world
-  </React.StrictMode>,
-  document.getElementById('root')
+<h1>sdwdwd</h1>
+  document.getElementById('react-app')
 );
 
 // If you want to start measuring performance in your app, pass a function
