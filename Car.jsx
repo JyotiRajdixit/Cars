@@ -65,7 +65,6 @@ class Car extends React.Component {
         const { isLoaded, cars, error } = this.state;
 
         return (
-            <>
                 <div style={{ justifyContent: "center", textAlign: "center" }}>
 
                     <Header 
@@ -97,7 +96,6 @@ class Car extends React.Component {
                         }
                     </div>
                 </div>
-            </>
         )
     }
 }
