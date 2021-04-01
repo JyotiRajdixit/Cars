@@ -17,5 +17,5 @@ SystemJS.config({
   transpiler: 'plugin-babel'
 });
 
-SystemJS.import('./app.jsx')
+SystemJS.import('./index.jsx')
   .catch(console.error.bind(console));
