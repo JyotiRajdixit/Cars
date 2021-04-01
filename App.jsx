@@ -3,7 +3,7 @@ import Car from './Car.jsx';
 import CarDetails from './CarDetails.jsx';
 import CompareCars from './CompareCars.jsx';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import './App.css';
+//import './App.css';
 
 function App() {
   return (
