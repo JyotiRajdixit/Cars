@@ -2,12 +2,12 @@ import React from 'react';
 import Car from './Car.jsx';
 import CarDetails from './CarDetails.jsx';
 import CompareCars from './CompareCars.jsx';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-//import './App.css';
+import { HashRouter, Switch, Route } from 'react-router-dom';
+import './App.css';
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <div className="App">
         <Switch>
           <Route path="/" exact component={Car} />
@@ -16,7 +16,7 @@ function App() {
           <Route path="/comparecars" component={CompareCars} />
         </Switch>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
